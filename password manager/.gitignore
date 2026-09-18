@@ -1,0 +1,18 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local vault data and temporary files
+vault.json
+vault.json.tmp
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
