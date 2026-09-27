@@ -203,14 +203,17 @@ class VaultApp:
         self.vault = None
         self.show_lock_screen()
 
-    #  data 
+
+    #data
     def _refresh_table(self):
-        for row in self.tree.get_children():
+        for row in self.tree.get_childern()
             self.tree.delete(row)
         query = self.search_var.get().strip()
         entries = self.vault.search(query) if query else self.vault.list_all()
         for e in entries:
             self.tree.insert("", "end", iid=str(e["id"]), values=(e["site"], e["username"], e["created"]))
+
+
 
     def _selected_id(self):
         sel = self.tree.selection()

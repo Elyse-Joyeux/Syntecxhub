@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Project runtime files
+chat_log.txt
+*.log
+
+# Local secrets or generated files
+*.sqlite3
+*.db
+
+# Optional: keep generated artifacts out of git
+*.tmp
+*.bak
