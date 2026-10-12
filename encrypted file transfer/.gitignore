@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+
+# Server runtime (identity key, password hashes, encrypted files)
+sft_data/
+
+# Client pinning / resume leftovers
+known_servers.json
+*.part
+
+# Test / local artifacts
+*.log
+*.tmp
+*.bak
+*.iso
+_cli_smoke/
+
+cyberknights.pdf
